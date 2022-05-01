@@ -18,9 +18,13 @@ const Sidebar = ({ sidebarOpen, closeSidebar }) => {
       </div>
 
       <div className="sidebar__menu">
+      <div className="sidebar__link active_menu_link">
+          <i className="fa fa-home"></i>
+          <a href="/Dashboard">Dashboard</a>
+        </div>
         <div className="sidebar__link active_menu_link">
           <i className="fa fa-home"></i>
-          <a href="#">Create Documents</a>
+          <a href="/create-documents">Create Documents</a>
         </div>
 
 

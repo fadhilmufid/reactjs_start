@@ -1,6 +1,8 @@
 import React from 'react';
 import "./Main.css";
 import Editor from "../editor/editor";
+import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
+import Dashboard from '../charts/Dashboard';
 
 const Main = () => {
   return (
@@ -20,7 +22,12 @@ const Main = () => {
 
         {/* <!-- EDITOR STARTS HERE --> */}
         <div>
-          <Editor />
+        <Router>
+            <Routes>
+                <Route path="/create-documents"  element={<Editor />} />
+                <Route path="/Dashboard"  element={<Dashboard />} />   
+            </Routes>
+        </Router>
         </div>
         {/* <!-- EDITOR ENDS HERE --> */}
       </div>

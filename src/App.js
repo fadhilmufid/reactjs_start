@@ -3,6 +3,7 @@ import { useState } from "react";
 import Main from "./components/main/Main";
 import Navbar from "./components/navbar/Navbar";
 import Sidebar from "./components/sidebar/Sidebar";
+import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 
 const App = () => {
     const [sidebarOpen, setsidebarOpen] = useState(false);
@@ -20,6 +21,6 @@ const App = () => {
         </div>
     );
     };
-    
+
 export default App;
 
