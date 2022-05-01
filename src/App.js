@@ -4,7 +4,6 @@ import Main from "./components/main/Main";
 import Navbar from "./components/navbar/Navbar";
 import Sidebar from "./components/sidebar/Sidebar";
 
-
 const App = () => {
     const [sidebarOpen, setsidebarOpen] = useState(false);
     const openSidebar = () => {
@@ -21,4 +20,6 @@ const App = () => {
         </div>
     );
     };
+    
 export default App;
+
