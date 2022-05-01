@@ -1,6 +1,5 @@
 import React from 'react';
 import "./Main.css";
-import hello from "../../assets/hello.svg";
 import Editor from "../editor/editor";
 
 const Main = () => {
