@@ -15,7 +15,6 @@ function Editor() {
       <ReactEditorJS
         tools={EDITOR_JS_TOOLS}  
 
-        
       />
     )
   }
