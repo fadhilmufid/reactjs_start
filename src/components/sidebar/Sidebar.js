@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Sidebar.css";
-import logo from "../../assets/logo.png";
+
 
 const Sidebar = ({ sidebarOpen, closeSidebar }) => {
   return (
@@ -18,15 +18,15 @@ const Sidebar = ({ sidebarOpen, closeSidebar }) => {
       </div>
 
       <div className="sidebar__menu">
-      <div className="sidebar__link active_menu_link">
-          <i className="fa fa-home"></i>
+        <h2>Home</h2>
+        <div className="sidebar__link">
+          <i className="fa fa-user-secret" aria-hidden="true"></i>
           <a href="/Dashboard">Dashboard</a>
         </div>
-        <div className="sidebar__link active_menu_link">
-          <i className="fa fa-home"></i>
+        <div className="sidebar__link">
+          <i className="fa fa-user-secret" aria-hidden="true"></i>
           <a href="/create-documents">Create Documents</a>
         </div>
-
 
         <h2>Folder</h2>
         <div className="sidebar__link">

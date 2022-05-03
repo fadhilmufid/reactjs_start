@@ -55,8 +55,19 @@ main {
   justify-content: space-between;
 }
 
-.card_inner > span {
+.card > span {
   font-size: 25px;
+}
+
+a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.main__card > a:hover, a:active {
+  background-color: green;
+  color: white;
 }
 
 .charts {

@@ -3,22 +3,36 @@ import Chart from "./Chart"
 const Dashboard = () => {
     return (
         <><div className="main__cards">
+            <a href="/create-documents">
+            <div className="card">
+             
+                <i
+                    className="fa fa-user-o fa-2x text-lightblue"
+                    aria-hidden="true"
+                ></i>
+                <div className="card_inner">
+                    <div className="charts__left__title">
+                        <div >
+                            <h3>Documents</h3>
+                            <p>Create new Docs</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </a>
+
             <div className="card">
                 <i
                     className="fa fa-user-o fa-2x text-lightblue"
                     aria-hidden="true"
                 ></i>
                 <div className="card_inner">
-                    <p className="text-primary-p">Number of Subscribers</p>
-                    <span className="font-bold text-title">578</span>
-                </div>
-            </div>
-
-            <div className="card">
-                <i className="fa fa-calendar fa-2x text-red" aria-hidden="true"></i>
-                <div className="card_inner">
-                    <p className="text-primary-p">Times of Watching</p>
-                    <span className="font-bold text-title">2467</span>
+                    <div className="charts__left__title">
+                        <div>
+                            <h3>Notes</h3>
+                            <p>Create new Notes</p>
+                        </div>
+                    </div>
                 </div>
             </div>
 

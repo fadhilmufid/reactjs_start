@@ -55,11 +55,11 @@
 
 .active_menu_link {
   background: #D5DEEB;
-  color: #2C599D;
+  color: white;
 }
 
 .active_menu_link a {
-  color: #2C599D !important;
+  color: white !important;
 }
 
 .sidebar__link > a {
@@ -107,3 +107,4 @@
     display: inline;
   }
 }
+
